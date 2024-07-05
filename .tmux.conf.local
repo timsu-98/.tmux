@@ -103,23 +103,23 @@ tmux_conf_theme_colour_16="#d70000"   # red
 tmux_conf_theme_colour_17="#e4e4e4"   # white
 
 # solarized color
+#tmux_conf_theme_colour_1="#002b36"    # dark gray
 #tmux_conf_theme_colour_2="#586e75"    # gray
 #tmux_conf_theme_colour_3="#839496"    # light gray
-#tmux_conf_theme_colour_4="#268bd2"    # light blue
-#tmux_conf_theme_colour_1="#002b36"    # dark gray
+#tmux_conf_theme_colour_4="#2aa198"    # light blue
 #tmux_conf_theme_colour_5="#b58900"    # yellow
 #tmux_conf_theme_colour_6="#002b36"    # dark gray
-#tmux_conf_theme_colour_7="#fdf6e3"    # white
+#tmux_conf_theme_colour_7="#eee8d5"    # white
 #tmux_conf_theme_colour_8="#002b36"    # dark gray
 #tmux_conf_theme_colour_9="#b58900"    # yellow
 #tmux_conf_theme_colour_10="#d33682"   # pink
-#tmux_conf_theme_colour_11="#2aa198"   # green
+#tmux_conf_theme_colour_11="#859900"   # green
 #tmux_conf_theme_colour_12="#839496"   # light gray
-#tmux_conf_theme_colour_13="#fdf6e3"   # white
+#tmux_conf_theme_colour_13="#eee8d5"   # white
 #tmux_conf_theme_colour_14="#002b36"   # dark gray
 #tmux_conf_theme_colour_15="#002b36"   # dark gray
-#tmux_conf_theme_colour_16="#dc322f"   # red
-#tmux_conf_theme_colour_17="#fdf6e3"   # white
+#tmux_conf_theme_colour_16="#cb4b16"   # red
+#tmux_conf_theme_colour_17="#eee8d5"   # white
 
 # default theme (ansi)
 #tmux_conf_theme_colour_1="colour0"
@@ -250,14 +250,14 @@ tmux_conf_theme_window_status_last_bg="$tmux_conf_theme_colour_2"
 tmux_conf_theme_window_status_last_attr="none"
 
 # status left/right sections separators
-#tmux_conf_theme_left_separator_main=""
-#tmux_conf_theme_left_separator_sub="|"
-#tmux_conf_theme_right_separator_main=""
-#tmux_conf_theme_right_separator_sub="|"
-tmux_conf_theme_left_separator_main='\uE0B0'  # /!\ you don't need to install Powerline
-tmux_conf_theme_left_separator_sub='\uE0B1'   #   you only need fonts patched with
-tmux_conf_theme_right_separator_main='\uE0B2' #   Powerline symbols or the standalone
-tmux_conf_theme_right_separator_sub='\uE0B3'  #   PowerlineSymbols.otf font, see README.md
+tmux_conf_theme_left_separator_main=""
+tmux_conf_theme_left_separator_sub="|"
+tmux_conf_theme_right_separator_main=""
+tmux_conf_theme_right_separator_sub="|"
+#tmux_conf_theme_left_separator_main='\uE0B0'  # /!\ you don't need to install Powerline
+#tmux_conf_theme_left_separator_sub='\uE0B1'   #   you only need fonts patched with
+#tmux_conf_theme_right_separator_main='\uE0B2' #   Powerline symbols or the standalone
+#tmux_conf_theme_right_separator_sub='\uE0B3'  #   PowerlineSymbols.otf font, see README.md
 
 # status left/right content:
 #   - separate main sections with "|"
